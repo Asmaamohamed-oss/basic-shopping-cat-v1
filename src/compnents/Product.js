@@ -15,7 +15,7 @@ export default function Product({product}) {
             <Card.Body>
                 <Card.Title>{title.slice(0,20)}...</Card.Title>
                 <Card.Text>{description.slice(0,30)}...</Card.Text>
-                <Button variant="primary" onClick={()=>dispacth(addToCart(product))}>Add To Cart</Button>
+                <Button variant="info" onClick={()=>dispacth(addToCart(product))}>Add To Cart</Button>
                 <h6>Price:{price}$</h6>
             </Card.Body>
             </Card>
