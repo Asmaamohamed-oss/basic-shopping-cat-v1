@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+a.link{
+  color: #282c34;
+}
+a.active, a.link:hover, a.navbar-brand{
+  color: rgb(172, 25, 25);
+}
+.card{
+  padding: 5px;
+}
+.card-img-top{
+  height: 200px;
+  object-fit: contain;
+}
+h1{
+  flex: 1;
+}
+.total{
+  background-color: #f3f3f3;
+  padding: 6px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
